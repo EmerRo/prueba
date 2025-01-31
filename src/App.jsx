@@ -1,13 +1,12 @@
+import React from 'react'
+import { SaludoForm } from './components/SaludoForm'
 
-import './App.css'
-import SaludoForm from './components/SaludoForm'
+export default function App() {
+  return (
+    <div>
 
-function App() {
- <div>
-  <h1>saludo</h1>
-  <SaludoForm/>
- </div>
-  
+
+        <SaludoForm />
+    </div>
+  )
 }
-
-export default App
